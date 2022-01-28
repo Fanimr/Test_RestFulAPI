@@ -21,6 +21,6 @@ namespace API.Domain.DTOs
         public float Price { get; set; }
 
         [Required(ErrorMessage = "El campo Cantidad es requerido")]
-        public string Amount { get; set; }
+        public int Amount { get; set; }
     }
 }
